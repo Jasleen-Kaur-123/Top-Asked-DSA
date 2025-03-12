@@ -6,7 +6,7 @@ public class Main{
     }
     public static void printNthRow(int n,int c){
         for(int i=0;i<n;i++){
-            System.out.println(ncr(n-1,c-i)); //
+            System.out.println(ncr(n-1,c-i)); 
         }
     }
     public static int ncr(int n,int c){
